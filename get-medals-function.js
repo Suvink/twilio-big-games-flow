@@ -5,7 +5,7 @@ exports.handler = function (context, event, callback) {
 
     axios({
         method: 'post',
-        url: "https://zb583460a-gtw.qovery.io/medals",
+        url: "https://olympics.suvin.me/medals",
         data: {
             "country": country,
         }
