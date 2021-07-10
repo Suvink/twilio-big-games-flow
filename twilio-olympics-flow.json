@@ -13,14 +13,13 @@
           "event": "incomingCall"
         },
         {
-          "next": "split_country",
           "event": "incomingRequest"
         }
       ],
       "properties": {
         "offset": {
           "x": 200,
-          "y": -160
+          "y": -80
         }
       }
     },
