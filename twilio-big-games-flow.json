@@ -36,7 +36,7 @@
           "event": "match",
           "conditions": [
             {
-              "friendly_name": "If value matches_any_of aries,taurus,gemini,cancer,leo,virgo,libra,scorpio,sagittarius,sag,capricorn,aquarius,pisces",
+              "friendly_name": "If value matches_any_of the given countries",
               "arguments": [
                 "{{trigger.message.Body}}"
               ],
@@ -49,7 +49,7 @@
       "properties": {
         "input": "{{trigger.message.Body}}",
         "offset": {
-          "x": -30,
+          "x": 0,
           "y": 470
         }
       }
